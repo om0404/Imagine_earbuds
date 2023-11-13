@@ -375,7 +375,10 @@ model-viewer > #ar-prompt > img {
   #main-nav li{
     display: none;
   }
-
+  #nav-text li:last-child {
+    display: inline-block;
+    margin-right: 0; /* Remove margin for the last item */
+  }
   #main-nav h3{
     color: #fff;
     text-align: center;
